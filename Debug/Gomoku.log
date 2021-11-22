@@ -1,0 +1,10 @@
+﻿  AI.cpp
+F:\programs\Gomoku\AI.cpp(545,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameController.cpp
+F:\programs\Gomoku\GameController.cpp(17,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\programs\Gomoku\GameController.cpp(25,25): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+F:\programs\Gomoku\GameController.cpp(25,43): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+F:\programs\Gomoku\GameController.cpp(28,7): warning C4101: 'answer': unreferenced local variable
+F:\programs\Gomoku\GameController.cpp(121,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Gomoku.vcxproj -> F:\programs\Gomoku\Debug\Gomoku.exe
