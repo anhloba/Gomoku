@@ -2,17 +2,17 @@
 
 void InputHandler::BordSizeInput(int& boardSize)
 {
-	char answer;
+	string answer;
 
 	cout << "Do you want to play at the default size of board? y/n : ";
 	cin >> answer;
-	if (answer == 'N' || answer == 'n')
+	if (answer == "N" || answer == "n")
 	{
 	enterSize:
 		cout << "Please enter size from eight to fifteen: ";
 		cin >> answer;
 
-		boardSize = atoi(&answer);
+		boardSize = stoi(answer);
 		if (boardSize < 8 || boardSize > 15)
 		{
 			cout << "Please enter correct size!" << endl;

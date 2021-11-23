@@ -66,7 +66,6 @@ void GameController::StartGame()
 		if (!AiTurn)
 		{
 			AiTurn = true;
-			cout << "Your turn." << endl;
 
 		enterPos:
 			InputHandler::Instance().PlayerMoveInput(playerMove, size);
